@@ -1,0 +1,207 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  max-height: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+}
+
+.navigation {
+  text-align: right;
+}
+
+.pink a {
+  color: pink;
+}
+
+.navigation ul {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px;
+}
+
+a {
+  color: black;
+}
+
+.footer-links li .first {
+  font-weight: bold;
+}
+
+li a {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 800;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.container-size {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+}
+.hero-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.hero-2-side-img {
+  display: flex;
+  justify-content: space-between;
+
+  width: 420px;
+}
+
+.hero-side-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: fit-content;
+}
+.paragraf-pink {
+  color: pink;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.left {
+  width: 400px;
+}
+
+.right {
+  display: flex;
+  gap: 50px;
+  padding-left: 200px;
+}
+
+button {
+  border-radius: 3px;
+  border-color: red;
+  position: relative;
+  border-radius: 50px;
+  background-color: white;
+  width: 40%;
+  height: 50px;
+  color: rgb(2, 0, 0);
+  font-weight: bold;
+  font-size: 15px;
+  background-color: transparent;
+}
+img .logo {
+  width: 349px;
+  height: 519px;
+}
+
+img.graphic {
+  height: 500px;
+}
+
+img.woman {
+  width: 100px;
+}
+
+.hero-side-img {
+  max-width: 349px;
+  height: 519px;
+}
+
+.hero-2-side-img .woman {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.press img {
+  width: 100px;
+  margin-top: 250px;
+  padding-bottom: 50px;
+}
+
+.background-img {
+  width: 800px;
+  height: 320px;
+  position: absolute;
+  top: 50%;
+  left: -45%;
+  transform: translate(19%, -20%);
+}
+
+.picture-m-w {
+  display: flex;
+  justify-items: center;
+  padding-bottom: 150px;
+}
+
+.back-ground {
+  position: relative;
+  display: inline-block;
+}
+
+.text-2 {
+  position: relative;
+  transform: translate(5%, 190%);
+  color: black;
+  font-size: 15px;
+}
+.h1-text {
+  font-weight: 100;
+}
+
+.footer {
+  padding-top: 150px;
+}
+
+.footer-logo {
+  width: 198px;
+  height: 36px;
+}
+.social {
+  width: 99.26px;
+  height: 18px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.press {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.bottom.bottom {
+  width: 1100px;
+  padding-top: 50px;
+  
+}
+
+footer {
+  display: flex;
+  padding-top: 150px;
+  
+}
